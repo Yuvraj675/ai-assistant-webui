@@ -1,10 +1,13 @@
 # Multi-Model AI Assistant (Gemini + Ollama)
 
-This project is an evolution of the original [Gemini AI Assistant](https://github.com/your-username/original-repo-name). It extends the functionality to support both Google's cloud-based **Gemini API** and locally hosted language models via **Ollama**, giving you the flexibility to chat with powerful AI models both online and offline.
+This project is an evolution of the original [Gemini AI Assistant](https://github.com/Yuvraj675/AI-Assistant/). It extends the functionality to support both Google's cloud-based **Gemini API** and locally hosted language models via **Ollama**, giving you the flexibility to chat with powerful AI models both online and offline.
 
 ![App Screenshot](ss_2.png)
+---
 ![App Screenshot](ss_3.png)
+---
 ![App Screenshot](ss_1.png)
+---
 
 
 ---
@@ -53,8 +56,8 @@ This project requires a two-part setup: one for the local AI (Ollama) and one fo
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/your-new-repository.git](https://github.com/your-username/your-new-repository.git)
-    cd your-new-repository
+    git clone [https://github.com/Yuvraj675/ai-assistant-webui](https://github.com/Yuvraj675/ai-assistant-webui)
+    cd ai-assistant-webui
     ```
 
 2.  **Configure API Settings:**
@@ -63,9 +66,10 @@ This project requires a two-part setup: one for the local AI (Ollama) and one fo
     ```python
     
         // For Google Gemini API (leave apiKey blank if not using)
+        //Change app.py file
         key = "ENTER YOUR API KEY HERE"
         // For local models via Ollama
-        Change the index.html file (line 152)
+        //Change the index.html file (line 152)
        <li><a class="dropdown-item ai" onclick="model='ENTER MODEL NAME HERE';printModel();">ENTER MODEL NAME HERE</a></li>
     
     ```
